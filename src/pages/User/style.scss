@@ -1,0 +1,13 @@
+// @import "../../styles/global.scss";
+
+.home__links {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.home__loading {
+  color: black;
+  margin: 0 auto;
+  max-width: 20em;
+}

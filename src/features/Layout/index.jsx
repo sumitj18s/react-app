@@ -1,10 +1,10 @@
 import React from "react";
-import logo from "../../assets/react.png"; // Tell webpack this JS file uses this image
+import User from "../../pages/User";
 
 const Layout = () => (
   <>
-    <div>Layout</div>
-    <img src={logo} alt="Logo" />;
+    <div>User Authentication Module</div>
+    <User />
   </>
 );
 
